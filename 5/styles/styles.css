@@ -2,14 +2,14 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 
 .page-header {
   color: #000000;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .navigation-link {
@@ -68,20 +68,20 @@ body {
 
 .blue {
   color: #FFFFFF;
-  background: #000000;
-  background-image: url(/images/blue-background.png);
+  background-color: #000000;
+  background-image: url(/..images/blue-background.png);
 }
 
 .white-1 {
   color: #000000;
-  background: #FFFFFF;
-  background-image: url(/images/background-white.png);
+  background-color: #FFFFFF;
+  background-image: url(/..images/background-white.png);
 }
 
 .white-2 {
   color: #000000;
-  background: #FFFFFF;
-  background-image: url(/images/background-blue-white.png);
+  background-color: #FFFFFF;
+  background-image: url(/..images/background-blue-white.png);
 }
 
 .interest-title {
@@ -112,7 +112,7 @@ body {
 
 .page-footer {
   color: #000000;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   font-size: 40px;
   line-height: 40px;
   font-weight: 400;
@@ -120,7 +120,7 @@ body {
 
 .inner-header {
   color: #FFFFFF;
-  background: #000000;
+  background-color: #000000;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -133,7 +133,7 @@ body {
 }
 .catalog-hostels {
   color: #FFFFFF;
-  background: #000000;
+  background-color: #000000;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -147,7 +147,7 @@ body {
 
 .filter-hostels-card {
   color:#000000;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
