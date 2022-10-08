@@ -3,6 +3,7 @@
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
 }
 
 body {
@@ -19,6 +21,7 @@ body {
   font-weight: 400;
   color: #000000;
   background-color: #FFFFFF;
+  margin: 0;
 }
 
 .page-header {
@@ -66,22 +69,24 @@ body {
   font-weight: 700;
 }
 
-.blue {
+.reasons-visit {
   color: #FFFFFF;
-  background-color: #000000;
-  background-image: url(/..images/blue-background.png);
+  background-color: #82B3D3;
+  ;
+
 }
 
-.white-1 {
+.resons-main {
   color: #000000;
   background-color: #FFFFFF;
-  background-image: url(/..images/background-white.png);
+
 }
 
-.white-2 {
+.reasons-minor {
   color: #000000;
-  background-color: #FFFFFF;
-  background-image: url(/..images/background-blue-white.png);
+  background-color: #83B3D31F;
+  ;
+
 }
 
 .interest-title {
@@ -175,4 +180,9 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+
+.hero {
+  background: url(../images/space-bar.svg;), url(../images/sedona-background.jpg);
+  background-position: center bottom, center;
 }
