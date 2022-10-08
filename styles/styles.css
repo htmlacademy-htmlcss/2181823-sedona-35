@@ -181,3 +181,8 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
+
+.hero {
+  background: url(../images/space-bar.svg;), url(../images/sedona-background.jpg);
+  background-position: center bottom, center;
+}
