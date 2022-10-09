@@ -185,4 +185,32 @@ body {
 .hero {
   background: url(../images/space-bar.svg;), url(../images/sedona-background.jpg);
   background-position: center bottom, center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-search {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-news-letter {
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #82B3D3;
+}
+
+.button-product-favroite {
+  background: #82B3D3;
 }
