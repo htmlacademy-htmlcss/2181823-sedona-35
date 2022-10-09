@@ -214,3 +214,16 @@ body {
 .button-product-favroite {
   background: #82B3D3;
 }
+
+.button-pagination-link {
+  background-color: #82B3D3;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-pagination-link-current{
+  background-color: #F2F2F2;
+}
+.button-pagination-link-light{
+  background-color: #FFFFFF;
+}
