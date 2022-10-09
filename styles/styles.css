@@ -209,6 +209,7 @@ body {
   font-size: 20px;
   line-height: 36px;
   background-color: #82B3D3;
+  color:#FFFFFF
 }
 
 .button-product-favroite {
@@ -221,9 +222,21 @@ body {
   line-height: 36px;
 }
 
-.button-pagination-link-current{
+.button-pagination-link-current {
   background-color: #F2F2F2;
 }
-.button-pagination-link-light{
+.button-pagination-link-light {
   background-color: #FFFFFF;
+}
+
+.footer-contacts-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-submit {
+  background: #82B3D3;
 }
