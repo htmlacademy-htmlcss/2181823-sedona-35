@@ -20,7 +20,7 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
   margin: 0;
 }
 
@@ -253,4 +253,9 @@ body {
 
 .button-submit {
   background: #82B3D3;
+}
+
+.navigation {
+  display: flex;
+
 }
