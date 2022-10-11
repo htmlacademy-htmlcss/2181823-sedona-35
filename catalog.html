@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -57,8 +58,10 @@
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a class="visually-hidden" href="index.html">
+            <a class="" href="index.html">
+              <span>
               Главная
+              </span>
             </a>
           </li>
           <li class="breadcrumbs-item">
@@ -132,13 +135,13 @@
                 <input class="control-input" type="text" placeholder="до">
                 <span class="visually-hidden">Цена до</span>
               </li>
-              <button class="button" type="submit">Применить</button>
+              <button class="button button-submit" type="submit">Применить</button>
               <button class="button" type="reset">Сбросить</button>
           </fieldset>
         </form>
       </section>
       <section class="filter-hostels-card">
-        <h2>Найдено гостиниц
+        <h2 class="found-hostels">Найдено гостиниц
           <span class="found-hostels">38</span>
         </h2>
         <select class="select-control" aria-label="Сортировка">
@@ -167,10 +170,10 @@
               <span class="visually-hidden">4 звезды.</span>
             </p>
             <p class="product-card-rating">
-              <span class=product-card-rating>Рейтинг: 8,5.</span>
+              <span class="product-card-rating">Рейтинг: 8,5.</span>
             </p>
             <a class="product-card-more button">Подробнее</a>
-            <button class="product-favroite button" type="button" href="#">В избранное</button>
+            <button class="button-product-favroite" type="button" href="#">В избранное</button>
           </li>
           <li class="hostels-card">
             <a class="hostels-card-link" href="#">
@@ -183,10 +186,10 @@
               <span class="visually-hidden">4 звезды.</span>
             </p>
             <p class="product-card-rating">
-              <span class=product-card-rating>Рейтинг: 9,2.</span>
+              <span class="product-card-rating">Рейтинг: 9,2.</span>
             </p>
             <a class="product-card-more button">Подробнее</a>
-            <button class="product-favroite button" type="button" href="#">В избранное</button>
+            <button class="button-product-favroite" type="button" href="#">В избранное</button>
           </li>
           <li class="hostels-card">
             <a class="hostels-card-link" href="#">
@@ -199,10 +202,10 @@
               <span class="visually-hidden">3 звезды.</span>
             </p>
             <p class="product-card-rating">
-              <span class=product-card-rating>Рейтинг: 6,9.</span>
+              <span class="product-card-rating">Рейтинг: 6,9.</span>
             </p>
             <a class="product-card-more button">Подробнее</a>
-            <button class="product-favroite button" type="button" href="#">В избранное</button>
+            <button class="button-product-favroite" type="button" href="#">В избранное</button>
           </li>
           <li class="hostels-card">
             <a class="hostels-card-link" href="#">
@@ -215,30 +218,30 @@
               <span class="visually-hidden">2 звезды.</span>
             </p>
             <p class="product-card-rating">
-              <span class=product-card-rating>Рейтинг: 5,0.</span>
+              <span class="product-card-rating">Рейтинг: 5,0.</span>
             </p>
             <a class="product-card-more button">Подробнее</a>
-            <button class="product-favroite button" type="button" href="#">В избранное</button>
+            <button class="button-product-favroite" type="button" href="#">В избранное</button>
           </li>
         </ul>
         <ul class="pagination">
           <li class="pagination-item">
-            <a class="pagination-link pagination-link-current">1</a>
+            <a class="button-pagination-link button-pagination-link-current">1</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">2</a>
+            <a class="button-pagination-link" href="#">2</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">3</a>
+            <a class="button-pagination-link" href="#">3</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">4</a>
+            <a class="button-pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link-light">...</a>
+            <a class="button-pagination-link button-pagination-link-light">...</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">10</a>
+            <a class="button-pagination-link" href="#">10</a>
           </li>
         </ul>
       </section>
@@ -248,7 +251,7 @@
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="newsletter-email">Email</label>
           <input class="field" type="email" name="newsletter-email" id="newsletter-email" placeholder="Ваш e-mail">
-          <button class="button button-news-letter" type="submit">
+          <button class="button-news-letter" type="submit">
             Подписаться
           </button>
         </form>
@@ -277,7 +280,7 @@
       </section>
       <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       <a class="copyrate-logo-link" href="https://htmlacademy.ru/">
-        <img class="copyrate-logo-img" src="images/HTML Academy.svg" alt="Логотип html academy." widt="115" height="33">
+        <img class="copyrate-logo-img" src="images/html-academy.svg" alt="Логотип html academy." widt="115" height="33">
       </a>
     </footer>
   </body>
