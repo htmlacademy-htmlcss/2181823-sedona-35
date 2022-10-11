@@ -1,0 +1,277 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #F2F2F2;
+  margin: 0;
+}
+
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-index{
+  background-color: #FFFFFF;
+}
+
+.description {
+  color: #000000;
+  background: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.reasons-block {
+  color: #000000;
+  background: #FFFFFF;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.reasons-list {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.reasons-header {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.reasons-visit {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  ;
+
+}
+
+.resons-main {
+  color: #000000;
+  background-color: #FFFFFF;
+
+}
+
+.reasons-minor {
+  color: #000000;
+  background-color: #83B3D31F;
+  ;
+
+}
+
+.interest-title {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.interest-date {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.newsletter-header {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.newsletter-description {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.page-footer {
+  color: #000000;
+  background-color: #FFFFFF;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.inner-header {
+  color: #FFFFFF;
+  background-color: #000000;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+.catalog-hostels {
+  color: #FFFFFF;
+  background-color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.filter-hostels-card {
+  color:#000000;
+  background-color: #FFFFFF;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.found-hostels {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.select-control{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hostl-card-categories {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hostl-card-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hero {
+  background: url(../images/space-bar.svg;) no-repeat bottom, url(../images/sedona-background.jpg) no-repeat center;
+  background-size: 100% auto;
+  width: 1200px;
+  height: 485px;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-search {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-news-letter {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #82B3D3;
+  color:#FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-product-favroite {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #82B3D3;
+}
+
+.button-pagination-link {
+  background-color: #82B3D3;
+  font-size: 20px;
+  line-height: 36px;
+  color:#FFFFFF
+}
+
+.button-pagination-link-current {
+  background-color: #F2F2F2;
+  color: #000000;
+}
+.button-pagination-link-light {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.footer-contacts-phone {
+  color: #000000;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-submit {
+  background: #82B3D3;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 70px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+}
