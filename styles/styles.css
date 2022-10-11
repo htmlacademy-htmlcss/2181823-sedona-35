@@ -186,6 +186,7 @@ body {
   background: url(../images/space-bar.svg;), url(../images/sedona-background.jpg);
   background-position: center bottom, center;
   background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto;
 }
 
 .button {
@@ -231,6 +232,7 @@ body {
   background-color: #82B3D3;
   font-size: 20px;
   line-height: 36px;
+  color:#FFFFFF
 }
 
 .button-pagination-link-current {
