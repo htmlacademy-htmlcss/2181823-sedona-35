@@ -17,6 +17,7 @@
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
+  min-height: 100%;
   line-height: 21px;
   font-weight: 400;
   color: #000000;
@@ -39,7 +40,9 @@ body {
   text-decoration: none;
 }
 
-
+.main-index{
+  background-color: #FFFFFF;
+}
 
 .description {
   color: #000000;
@@ -276,4 +279,12 @@ body {
 
 .reasons-list {
 
+}
+
+html {
+  height: 100%;
+}
+
+.main-conteiner {
+  flex-grow: 1;
 }
