@@ -206,13 +206,24 @@ body {
 }
 
 .button-news-letter {
+  font-family: inherit;
   font-size: 20px;
   line-height: 36px;
   background-color: #82B3D3;
-  color:#FFFFFF
+  color:#FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .button-product-favroite {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
   background: #82B3D3;
 }
 
