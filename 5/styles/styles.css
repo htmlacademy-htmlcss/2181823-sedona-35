@@ -39,6 +39,10 @@ body {
   text-decoration: none;
 }
 
+.main-index{
+  background-color: #FFFFFF;
+}
+
 .description {
   color: #000000;
   background: #FFFFFF;
@@ -185,10 +189,10 @@ body {
 }
 
 .hero {
-  background: url(../images/space-bar.svg;), url(../images/sedona-background.jpg);
-  background-position: center bottom, center;
-  background-repeat: no-repeat, no-repeat;
+  background: url(../images/space-bar.svg;) no-repeat bottom, url(../images/sedona-background.jpg) no-repeat center;
   background-size: 100% auto;
+  width: 1200px;
+  height: 485px;
 }
 
 .button {
