@@ -55,6 +55,8 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  text-transform: none;
+  font-weight: 400;
 }
 
 .reasons-list {
