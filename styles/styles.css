@@ -237,8 +237,10 @@ body {
 
 .button-pagination-link-current {
   background-color: #F2F2F2;
+  color: #000000;
 }
 .button-pagination-link-light {
+  color: #000000;
   background-color: #FFFFFF;
 }
 
@@ -257,5 +259,13 @@ body {
 
 .navigation {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 70px;
+  margin: 0 auto;
+}
 
+.navigation-list {
+  margin: 0;
+  padding: 0;
 }
