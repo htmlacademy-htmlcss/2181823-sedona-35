@@ -40,7 +40,7 @@ body {
   text-decoration: none;
 }
 
-.main-index{
+.main-index {
   background-color: #FFFFFF;
 }
 
@@ -143,6 +143,7 @@ body {
   font-size: 16px;
   line-height: 21px;
 }
+
 .catalog-hostels {
   color: #FFFFFF;
   background-color: #000000;
@@ -158,7 +159,7 @@ body {
 }
 
 .filter-hostels-card {
-  color:#000000;
+  color: #000000;
   background-color: #FFFFFF;
   font-weight: 700;
   font-size: 24px;
@@ -171,7 +172,7 @@ body {
   line-height: 36px;
 }
 
-.select-control{
+.select-control {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -191,9 +192,7 @@ body {
 
 .hero {
   background: url(../images/space-bar.svg;) no-repeat bottom, url(../images/sedona-background.jpg) no-repeat center;
-  background-size: 100% auto;
-  width: 1200px;
-  height: 485px;
+  background-size: 100%;
 }
 
 .button {
@@ -218,7 +217,7 @@ body {
   font-size: 20px;
   line-height: 36px;
   background-color: #82B3D3;
-  color:#FFFFFF;
+  color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -239,13 +238,14 @@ body {
   background-color: #82B3D3;
   font-size: 20px;
   line-height: 36px;
-  color:#FFFFFF
+  color: #FFFFFF
 }
 
 .button-pagination-link-current {
   background-color: #F2F2F2;
   color: #000000;
 }
+
 .button-pagination-link-light {
   color: #000000;
   background-color: #FFFFFF;
@@ -278,13 +278,15 @@ body {
 }
 
 .reasons-list {
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 html {
   height: 100%;
 }
 
-.main-conteiner {
+.main-container {
   flex-grow: 1;
 }
