@@ -265,10 +265,10 @@ body {
 
 .navigation {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 70px;
-  margin: 0 auto;
+  padding: 0px 70px;
 }
 
 .navigation-list {
