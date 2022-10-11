@@ -186,6 +186,7 @@ body {
   background: url(../images/space-bar.svg;), url(../images/sedona-background.jpg);
   background-position: center bottom, center;
   background-repeat: no-repeat, no-repeat;
+  background-size: 100% auto;
 }
 
 .button {
@@ -206,12 +207,24 @@ body {
 }
 
 .button-news-letter {
+  font-family: inherit;
   font-size: 20px;
   line-height: 36px;
   background-color: #82B3D3;
+  color:#FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .button-product-favroite {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
   background: #82B3D3;
 }
 
@@ -219,11 +232,25 @@ body {
   background-color: #82B3D3;
   font-size: 20px;
   line-height: 36px;
+  color:#FFFFFF
 }
 
-.button-pagination-link-current{
+.button-pagination-link-current {
   background-color: #F2F2F2;
 }
-.button-pagination-link-light{
+.button-pagination-link-light {
   background-color: #FFFFFF;
+}
+
+.footer-contacts-phone {
+  color: #000000;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-submit {
+  background: #82B3D3;
 }
