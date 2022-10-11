@@ -241,6 +241,7 @@ body {
 }
 
 .footer-contacts-phone {
+  color: #000000;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
