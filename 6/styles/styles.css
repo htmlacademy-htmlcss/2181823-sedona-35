@@ -33,6 +33,7 @@ body {
   background-color: #FFFFFF;
   display: flex;
   justify-content: center;
+  width: 1200px;
 }
 
 .page-header-logo{
@@ -73,6 +74,8 @@ body {
   color: inherit;
   text-decoration: none;
 }
+
+
 
 .main-index {
   background-color: #FFFFFF;
@@ -348,4 +351,8 @@ html {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+}
+
+.visually-hidden{
+overflow: hidden;
 }
