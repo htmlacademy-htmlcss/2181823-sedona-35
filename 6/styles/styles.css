@@ -45,7 +45,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 892;
+  width: 892px;
 }
 
 .navigation-list{
@@ -81,7 +81,7 @@ body {
   background-color: #FFFFFF;
 }
 
-.description {
+.main-description {
   color: #000000;
   background: #FFFFFF;
   text-transform: uppercase;
@@ -91,6 +91,12 @@ body {
   text-align: center;
 }
 
+.description-text{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
 .reasons-block {
   color: #000000;
   background: #FFFFFF;
@@ -233,7 +239,9 @@ body {
 
 .hero {
   background: url(../images/space-bar.svg;) no-repeat bottom, url(../images/sedona-background.jpg) no-repeat center;
-  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  width: 1200;
 }
 
 .button {
