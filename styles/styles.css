@@ -96,7 +96,9 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+  text-transform: none;
 }
+
 .reasons-block {
   color: #000000;
   background: #FFFFFF;
@@ -238,10 +240,11 @@ body {
 }
 
 .hero {
-  background: url(../images/space-bar.svg;) no-repeat bottom, url(../images/sedona-background.jpg) no-repeat center;
+  background: url(../images/space-bar.svg) no-repeat bottom, url(../images/sedona-background.jpg) no-repeat center;
   display: flex;
   justify-content: center;
-  width: 1200;
+  width: 1200px;
+  align-items: center;
 }
 
 .button {
@@ -307,6 +310,8 @@ body {
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
 }
 
 .submit {
