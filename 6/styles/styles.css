@@ -28,6 +28,37 @@ body {
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+.page-header-logo{
+  display: block;
+  width: 140px;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 892;
+}
+
+.navigation-list{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation-list-item{
+  padding: 20px 18px;
+}
+
+.navigation-user{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-link {
@@ -107,6 +138,10 @@ body {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
+}
+
+.newsletter{
+  background-image: url(../images/background-subscribe.jpg) no-repeat;
 }
 
 .newsletter-header {
@@ -207,12 +242,12 @@ body {
   text-transform: uppercase;
 }
 
-.button-search {
+.hostels-search {
   font-size: 20px;
   line-height: 36px;
 }
 
-.button-news-letter {
+.news-letter {
   font-family: inherit;
   font-size: 20px;
   line-height: 36px;
@@ -222,7 +257,7 @@ body {
   text-transform: uppercase;
 }
 
-.button-product-favroite {
+.product-favroite {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -234,19 +269,19 @@ body {
   background: #82B3D3;
 }
 
-.button-pagination-link {
+.pagination-link {
   background-color: #82B3D3;
   font-size: 20px;
   line-height: 36px;
   color: #FFFFFF
 }
 
-.button-pagination-link-current {
+.pagination-link-current {
   background-color: #F2F2F2;
   color: #000000;
 }
 
-.button-pagination-link-light {
+.pagination-link-light {
   color: #000000;
   background-color: #FFFFFF;
 }
@@ -260,21 +295,12 @@ body {
   text-transform: uppercase;
 }
 
-.button-submit {
+.submit {
   background: #82B3D3;
 }
 
-.navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 70px;
-}
+.reset{
 
-.navigation-list {
-  margin: 0;
-  padding: 0;
 }
 
 .reasons-list {
@@ -289,4 +315,34 @@ html {
 
 .main-container {
   flex-grow: 1;
+}
+
+.reasons-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.real-city-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.devils-bridge-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.needs-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
