@@ -210,6 +210,7 @@ body {
 
 .newsletter{
   background: #f2f2f2 url(../images/background-subscribe.jpg) no-repeat;
+  background-size: 1200px;
 }
 
 .newsletter-header {
