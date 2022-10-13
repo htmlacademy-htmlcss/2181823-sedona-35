@@ -78,7 +78,7 @@ body {
 
 
 .main-index {
-  background-color: #FFFFFF;
+  background: #FFFFFF;
 }
 
 .main-description {
@@ -89,6 +89,14 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  display: flex;
+  width: 1200px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description-title{
+  margin-bottom: 25px;
 }
 
 .description-text{
@@ -96,7 +104,9 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+  text-transform: none;
 }
+
 .reasons-block {
   color: #000000;
   background: #FFFFFF;
@@ -110,6 +120,7 @@ body {
 .reasons-list {
   font-size: 18px;
   line-height: 21px;
+
 }
 
 .reasons-header {
@@ -117,6 +128,11 @@ body {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
+  width: 175px;
+}
+
+.reasons-description{
+  width: 230px;
 }
 
 .reasons-visit {
@@ -139,6 +155,45 @@ body {
 
 }
 
+.reasons-block {
+  width: 1200px
+}
+
+.reasons-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.reasons-item-with-picture{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+
+.reasons-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 400px;
+}
+
+.fact-reasons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.needs-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+
 .interest-title {
   text-transform: uppercase;
   font-size: 30px;
@@ -153,7 +208,7 @@ body {
 }
 
 .newsletter{
-  background-image: url(../images/background-subscribe.jpg) no-repeat;
+  background: #f2f2f2 url(../images/background-subscribe.jpg) no-repeat;
 }
 
 .newsletter-header {
@@ -238,10 +293,11 @@ body {
 }
 
 .hero {
-  background: url(../images/space-bar.svg;) no-repeat bottom, url(../images/sedona-background.jpg) no-repeat center;
+  background: url(../images/space-bar.svg) no-repeat bottom, url(../images/sedona-background.jpg) no-repeat center;
   display: flex;
   justify-content: center;
-  width: 1200;
+  width: 1200px;
+  align-items: center;
 }
 
 .button {
@@ -307,6 +363,8 @@ body {
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
 }
 
 .submit {
@@ -317,11 +375,6 @@ body {
 
 }
 
-.reasons-list {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
 
 html {
   height: 100%;
@@ -331,35 +384,6 @@ html {
   flex-grow: 1;
 }
 
-.reasons-block {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.fact-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-.real-city-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-.devils-bridge-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-.needs-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
 
 .visually-hidden{
 overflow: hidden;
