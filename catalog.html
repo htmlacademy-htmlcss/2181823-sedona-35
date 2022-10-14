@@ -9,39 +9,39 @@
 
   <body>
     <header class="page-header">
-      <a class="page-header-logo" href="index.html">
-        <img class="page-header-logo" src="images/logo.svg" alt="Логотип города Седона" widt="138" height="64">
+      <a class="page-header-logo">
+        <img class="page-header-logo" src="images/logo.svg" alt="Логотип города Седона." widt="138" height="64">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-link" href="index.html">
+          <li class="navigation-list-item">
+            <a class="navigation-link navigation-link-current" href="index.html">
               Главная
             </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="about.html">
+          <li class="navigation-list-item">
+            <a class="navigation-link" href="#">
               О Седоне
             </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link-current">
+          <li class="navigation-list-item">
+            <a class="navigation-link" href="#">
               Гостиницы
             </a>
           </li>
         </ul>
-        <ul class="navigation-list navigation-user">
+        <ul class="navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
+            <a class="navigation-link" href="">
               <span class="visually-hidden">
-                Поиск
+                Поиск.
               </span>
             </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">
-                Понравившиеся
+                Понравившиеся.
               </span>
             </a>
           </li>
@@ -56,24 +56,26 @@
     <main class="main-inner main-container">
       <div class="filter-block-container">
         <header class="inner-header">
-          <h1 class="inner-header-title">Гостиницы Седоны</h1>
-          <ul class="breadcrumbs">
-            <li class="breadcrumbs-item">
-              <a class="visually-hidden" href="index.html">
-                <span>
-                  Главная
-                </span>
-              </a>
-            </li>
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link">Гостиницы</a>
-            </li>
-          </ul>
+          <div class="inner-header-container">
+            <h1 class="inner-header-title">Гостиницы Седоны</h1>
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs-item">
+                <a class="visually-hidden" href="index.html">
+                  <span>
+                    Главная
+                  </span>
+                </a>
+              </li>
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link">Гостиницы</a>
+              </li>
+            </ul>
+          </div>
         </header>
         <section class="catalog-hostels">
           <h2 class="visually-hidden">Фильтры</h2>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-            <fieldset class="catalog-filter-group">
+            <fieldset class="catalog-filter-group-infra">
               <legend class="catalog-filter-title">Инфраструктура:</legend>
               <ul class="catalog-filter-list">
                 <li class="control-filter-item">
@@ -102,7 +104,7 @@
                 </li>
               </ul>
             </fieldset>
-            <fieldset class="catalog-filter-group">
+            <fieldset class="catalog-filter-group-type">
               <legend class="catalog-filter-title">Тип жилья:</legend>
               <ul class="catalog-filter-list">
                 <li class="control-filter-item">
@@ -135,7 +137,7 @@
                 <li class="control-filter-item">
                   <input class="control-input" type="text" placeholder="до">
                   <span class="visually-hidden">Цена до</span>
-                </li>
+                </li class="control-filter-item-submit">
                 <button class="button submit" type="submit">Применить</button>
                 <button class="button reset" type="reset">Сбросить</button>
             </fieldset>
@@ -170,10 +172,10 @@
             <span class="hostl-card-categories">Гостиница</span>
             <b class="hostl-card-price">от 4000 Р</b>
             <p class="product-card-rating-star4">
-              <span class="visually-hidden">4 звезды.</span>
+              <span class="visually-hidden">4 звезды</span>
             </p>
             <p class="product-card-rating">
-              <span class="product-card-rating">Рейтинг: 8,5.</span>
+              <span class="product-card-rating">Рейтинг: 8,5</span>
             </p>
             <a class="product-card-more button">Подробнее</a>
             <button class="button product-favroite" type="button" href="#">В избранное</button>
@@ -184,13 +186,13 @@
                 width="300" height="212">
             </a>
             <h3 class="hostl-card-title">Villas at Poco Diablo</h3>
-            <span class="hostl-card-categories">Гостиница.</span>
+            <span class="hostl-card-categories">Гостиница</span>
             <b class="hostl-card-price">от 5000 Р</b>
             <p class="product-card-rating-star4">
-              <span class="visually-hidden">4 звезды.</span>
+              <span class="visually-hidden">4 звезды</span>
             </p>
             <p class="product-card-rating">
-              <span class="product-card-rating">Рейтинг: 9,2.</span>
+              <span class="product-card-rating">Рейтинг: 9,2</span>
             </p>
             <a class="product-card-more button">Подробнее</a>
             <button class="button product-favroite" type="button" href="#">В избранное</button>
@@ -204,10 +206,10 @@
             <span class="hostl-card-categories">Гостиница.</span>
             <b class="hostl-card-price">от 2500 Р</b>
             <p class="product-card-rating-star3">
-              <span class="visually-hidden">3 звезды.</span>
+              <span class="visually-hidden">3 звезды</span>
             </p>
             <p class="product-card-rating">
-              <span class="product-card-rating">Рейтинг: 6,9.</span>
+              <span class="product-card-rating">Рейтинг: 6,9</span>
             </p>
             <a class="product-card-more button">Подробнее</a>
             <button class="button product-favroite" type="button" href="#">В избранное</button>
@@ -218,13 +220,13 @@
                 height="212">
             </a>
             <h3 class="hostl-card-title">GreenTree Inn</h3>
-            <span class="hostl-card-categories">>Гостиница.</span>
+            <span class="hostl-card-categories">Гостиница</span>
             <b class="hostl-card-price">от 1500 Р</b>
             <p class="product-card-rating-star2">
-              <span class="visually-hidden">2 звезды.</span>
+              <span class="visually-hidden">2 звезды</span>
             </p>
             <p class="product-card-rating">
-              <span class="product-card-rating">Рейтинг: 5,0.</span>
+              <span class="product-card-rating">Рейтинг: 5,0</span>
             </p>
             <a class="product-card-more button">Подробнее</a>
             <button class="button product-favroite" type="button" href="#">В избранное</button>
