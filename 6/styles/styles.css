@@ -28,21 +28,6 @@ body {
   align-items: center
 }
 
-.button {
-  display: block;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #ffffff;
-  background: #756157;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding-block: 8px;
-  padding-inline: 34px;
-}
-
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
@@ -268,6 +253,21 @@ body {
   flex-direction: row;
   align-items: center;
   width: 684px;
+}
+
+.button {
+  display: block;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-block: 8px;
+  padding-inline: 34px;
 }
 
 .news-letter {
