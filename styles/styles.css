@@ -227,17 +227,13 @@ body {
   flex-direction: column;
 }
 
-.newsletter-decription {
-  align-items: center;
-  width: 684px;
-}
-
 .newsletter-header {
   text-transform: uppercase;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   margin: 0;
+  text-align: center;
 }
 
 .newsletter-description {
@@ -250,9 +246,7 @@ body {
 
 .newsletter-form {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 684px;
+  justify-content: center;
 }
 
 .button {
@@ -278,12 +272,14 @@ body {
   text-transform: none;
   padding-inline: 50px;
   width: 232px;
+  border: none;
 }
 
 .field {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
+  width: 452px;
 }
 
 .page-footer {
