@@ -337,7 +337,7 @@ body {
   line-height: 21px;
 }
 
-.catalog-hostels {
+.catalog-filter {
   color: #FFFFFF;
   font-weight: 400;
   font-size: 18px;
@@ -347,6 +347,11 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   margin-left: 70px;
+  padding: 35px 70px 70px;
+}
+
+.catalog-filter-list {
+
 }
 
 .catalog-filter-title {
@@ -364,10 +369,12 @@ body {
 
 .catalog-filter-group-infra {
   margin-right: 70px;
+  border: none;
 }
 
 .catalog-filter-group-type {
   margin-right: 70px;
+  border: none;
 }
 
 .catalog-filter-group{
@@ -474,7 +481,8 @@ body {
 }
 
 .reset {
-
+  width: 191px;
+  background-color: transparent;
 }
 
 
