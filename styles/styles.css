@@ -28,6 +28,21 @@ body {
   align-items: center
 }
 
+.button {
+  display: block;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-block: 8px;
+  padding-inline: 34px;
+}
+
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
@@ -228,8 +243,6 @@ body {
 }
 
 .newsletter-decription {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   width: 684px;
 }
@@ -239,12 +252,15 @@ body {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  margin: 0;
 }
 
 .newsletter-description {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
+  text-align: center;
+  width: 475px;
 }
 
 .newsletter-form {
@@ -255,13 +271,11 @@ body {
 }
 
 .news-letter {
-  font-family: inherit;
   font-size: 20px;
   line-height: 36px;
   background-color: #82B3D3;
   color: #FFFFFF;
-  text-decoration: none;
-  text-transform: uppercase;
+  text-transform: none;
   padding-inline: 50px;
   width: 232px;
 }
@@ -369,20 +383,6 @@ body {
   justify-content: center;
   width: 1200px;
   align-items: center;
-}
-
-.button {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #ffffff;
-  background: #756157;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding-block: 8px;
-  padding-inline: 34px;
 }
 
 .hostels-search {
