@@ -330,7 +330,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 35px 70px 70px;
+  padding: 35px 70px 10px;
   width: 1060px;
 }
 
@@ -349,6 +349,7 @@ body {
   padding: 0px;
   gap: 167px;
   width: 1060px;
+  padding: 0px 70px 70px;
 }
 
 .breadcrumbs {
@@ -391,7 +392,8 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 32px;
+  width: 150.43px;
+  margin: 0;
 }
 
 .catalog-filter-list {
@@ -400,6 +402,18 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 16px;
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.catalog-filter-list-cost {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
 }
 
 .catalog-filter-group-cost {
@@ -408,6 +422,7 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 32px;
+  width: 288px;
 }
 
 .catalog-filter-button-container {
@@ -517,21 +532,21 @@ body {
 }
 
 .submit {
+  width: 191px;
   background: #82B3D3;
+  border: none;
 }
 
 .reset {
   width: 191px;
   background-color: transparent;
+  border: none;
 }
 
 
 html {
   height: 100%;
 }
-
-
-
 
 .visually-hidden {
   position: absolute;
