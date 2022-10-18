@@ -57,6 +57,7 @@ body {
 
 .navigation-list-item {
   padding: 20px 18px;
+
 }
 
 .navigation-user {
@@ -181,6 +182,8 @@ body {
   align-items: center;
   width: 400px;
   justify-content: center;
+  padding: 0px;
+  min-height: 384px;
 }
 
 .fact-reasons {
@@ -201,6 +204,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-height: 406px;
+  padding: 0px;
 }
 
 .interest-title {
@@ -225,6 +230,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 0px;
 }
 
 .newsletter-header {
@@ -567,18 +573,19 @@ body {
   width: 1060px;
 }
 
+.pagination-link {
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background: none;
+}
+
 .pagination-link-current {
   color: #000000;
 }
 
 .pagination-link-light {
   color: #000000;
-}
-
-.pagination-link {
-  font-size: 20px;
-  line-height: 36px;
-  color: #FFFFFF;
 }
 
 .pagination-item {
