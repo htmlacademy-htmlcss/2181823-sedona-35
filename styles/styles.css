@@ -319,9 +319,6 @@ body {
 
 .inner-header {
   color: #FFFFFF;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 78px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -342,16 +339,16 @@ body {
   line-height: 21px;
 }
 
-.catalog-filter {
+.ctalog-hostels {
   color: #FFFFFF;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 0px;
   gap: 167px;
+  width: 1060px;
 }
-
-.catalog-filter-list {}
 
 .breadcrumbs {
   display: flex;
@@ -367,6 +364,7 @@ body {
   font-size: 20px;
   line-height: 24px;
 }
+
 
 .control-filter-item-submit {
   display: flex;
