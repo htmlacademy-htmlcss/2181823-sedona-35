@@ -511,6 +511,14 @@ body {
   border-radius: 4px;
 }
 
+.line-card-list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+}
+
 .hostl-card-categories {
   font-weight: 400;
   font-size: 18px;
