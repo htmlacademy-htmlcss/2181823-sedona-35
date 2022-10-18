@@ -231,6 +231,7 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 0px;
+  min-height: 414.86px;
 }
 
 .newsletter-header {
@@ -617,6 +618,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-height: 414.86px;
 }
 
 .footer-contacts-phone {
