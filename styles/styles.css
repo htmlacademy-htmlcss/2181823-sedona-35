@@ -567,18 +567,19 @@ body {
   width: 1060px;
 }
 
+.pagination-link {
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background: none;
+}
+
 .pagination-link-current {
   color: #000000;
 }
 
 .pagination-link-light {
   color: #000000;
-}
-
-.pagination-link {
-  font-size: 20px;
-  line-height: 36px;
-  color: #FFFFFF;
 }
 
 .pagination-item {
