@@ -559,42 +559,47 @@ body {
 .pagination {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   padding: 0px;
+  padding-left: 70px;
+  gap: 8px;
   margin: 0;
   width: 1060px;
 }
 
-.pagination-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 8px;
+.pagination-link-current {
+  color: #000000;
+}
 
+.pagination-link-light {
+  color: #000000;
 }
 
 .pagination-link {
-  background-color: #82B3D3;
   font-size: 20px;
   line-height: 36px;
   color: #FFFFFF;
 }
 
 .pagination-item {
-  width: 60px;
-  height: 60px;
-
+  padding-bottom: 12px;
+  padding-top: 12px;
+  text-align: center;
+  background: #82B3D3;
 }
 
-.pagination-link-current {
-  background-color: #F2F2F2;
-  color: #000000;
+.pagination-item-light {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  text-align: center;
 }
 
-.pagination-link-light {
-  color: #000000;
-  background-color: #FFFFFF;
+
+.pagination-item-current {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  text-align: center;
+  background: #F2F2F2;
 }
 
 .inner-newsletter {
