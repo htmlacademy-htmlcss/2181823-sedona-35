@@ -446,11 +446,10 @@ body {
 .filter-show-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0px;
   gap: 192px;
-  width: 1060px;
 }
 
 .filter-sort-container {
@@ -469,7 +468,6 @@ body {
   align-items: center;
   padding: 0px;
   gap: 8px;
-  width: 160px;
 }
 
 .filter-hostels-card {
@@ -495,7 +493,7 @@ body {
 .hostels-card-list {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0px;
   gap: 20px;
 }
@@ -506,7 +504,6 @@ body {
   align-items: flex-start;
   padding: 20px;
   gap: 16px;
-  width: 340px;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
 }
@@ -558,11 +555,21 @@ body {
 
 }
 
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1060px;
+}
+
 .pagination-link {
   background-color: #82B3D3;
   font-size: 20px;
   line-height: 36px;
-  color: #FFFFFF
+  color: #FFFFFF;
+  width: 60px;
+  height: 60px;
 }
 
 .pagination-link-current {
