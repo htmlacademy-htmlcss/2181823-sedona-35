@@ -346,7 +346,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0px;
   gap: 167px;
   width: 1060px;
   padding: 0px 70px 70px;
@@ -442,6 +441,35 @@ body {
   padding: 0px;
   gap: 70px;
   width: 549px;
+}
+
+.filter-show-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 192px;
+  width: 1060px;
+}
+
+.filter-sort-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 70px;
+  width: 522px;
+}
+
+.filter-card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 160px;
 }
 
 .filter-hostels-card {
