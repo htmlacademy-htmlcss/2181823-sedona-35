@@ -175,7 +175,7 @@ body {
 
 .reasons-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   margin: 0;
   padding: 0;
