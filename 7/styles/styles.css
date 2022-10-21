@@ -69,6 +69,7 @@ body {
   padding: 0;
   flex-wrap: wrap;
   width: 398px;
+  justify-content: end;
 }
 
 .navigation-link {
