@@ -323,29 +323,26 @@ body {
 .filter-block-container {
   background: url(../images/background-catalog.jpg) no-repeat;
   background-color: #000000;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  width: 1060px;
+  padding: 35px 70px 70px;
 }
 
 .inner-header {
   color: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 8px;
+  display: block;
+  margin-bottom: 10px;
+  word-wrap: break-word;
 }
 
-.inner-header-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 35px 70px 10px;
-  width: 1060px;
+.inner-header-title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
 }
 
-.breadcrumbs-link {
+ .breadcrumbs-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -358,14 +355,11 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   gap: 167px;
-  width: 1060px;
-  padding: 0px 70px 70px;
 }
 
 .breadcrumbs {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   gap: 10px;
   padding: 0px;
