@@ -53,6 +53,8 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
+  width: 489px;
 }
 
 .navigation-list-item {
@@ -65,6 +67,8 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
+  width: 398px;
 }
 
 .navigation-link {
@@ -125,7 +129,7 @@ body {
 .reasons-list {
   font-size: 18px;
   line-height: 21px;
-
+  word-wrap: break-word;
 }
 
 .reasons-header {
@@ -133,12 +137,13 @@ body {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
-  width: 175px;
-
+  text-align: center;
+  margin: 0;
 }
 
 .reasons-description {
-  width: 230px;
+  text-align: center;
+  margin: 0;
 }
 
 .reasons-visit {
@@ -179,11 +184,10 @@ body {
 .reasons-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 400px;
-  justify-content: center;
-  padding: 0px;
-  min-height: 384px;
+  width: 230px;
+  justify-content: space-between;
+  padding: 92px 85px 111px 85px;
+  min-height: 181px;
 }
 
 .fact-reasons {
@@ -199,13 +203,10 @@ body {
 }
 
 .interest {
-  width: 1200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  min-height: 406px;
-  padding: 0px;
+  width: 592px;
+  padding: 96px 304px;
+  text-align: center;
+  display: block;
 }
 
 .interest-title {
@@ -213,25 +214,25 @@ body {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  margin: 0px;
+  margin-bottom: 20px;
 }
 
 .interest-date {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
+  margin: 0;
+  margin-bottom: 54px;
 }
 
 .newsletter {
   background: #000000 url(../images/background-subscribe.jpg) no-repeat;
   color: #FFFFFF;
   background-size: 1200px;
-  width: 1200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0px;
-  min-height: 414.86px;
+  width: 684px;
+  padding: 96px 258px 104px;
+  display: block;
 }
 
 .newsletter-header {
@@ -241,6 +242,7 @@ body {
   font-weight: 700;
   margin: 0;
   text-align: center;
+  margin-bottom: 20px
 }
 
 .newsletter-description {
@@ -249,6 +251,7 @@ body {
   font-weight: 400;
   text-align: center;
   width: 475px;
+  margin-bottom: 54px
 }
 
 .newsletter-form {
@@ -287,6 +290,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   width: 452px;
+  border: none;
 }
 
 .page-footer {
@@ -538,16 +542,20 @@ body {
 
 .hero {
   background: url(../images/space-bar.svg) no-repeat bottom, url(../images/sedona-background.jpg) no-repeat center;
-  display: flex;
-  justify-content: center;
   width: 1200px;
-  align-items: center;
+  min-height: 485px;
+  display: block;
+}
+
+.hero-img {
+  margin: 51px 371px 82px 371px;
 }
 
 .hostels-search {
   font-size: 20px;
   line-height: 36px;
   padding-inline: 50px;
+  width: 376px;
 }
 
 .product-favroite {
