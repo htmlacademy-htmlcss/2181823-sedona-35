@@ -289,7 +289,7 @@ body {
   line-height: 36px;
   background-color: #82B3D3;
   color: #FFFFFF;
-  text-transform: none;
+  border: none;
   padding-inline: 50px;
   width: 232px;
   border-radius: 0px 4px 4px 0px;
@@ -301,6 +301,7 @@ body {
   line-height: 24px;
   width: 452px;
   border: none;
+  border-radius: 4px 0px 0px 4px;
 }
 
 .page-footer {
@@ -628,6 +629,9 @@ body {
   line-height: 36px;
   color: #FFFFFF;
   background: none;
+  padding-block: unset;
+  padding-inline: unset;
+
 }
 
 .pagination-link-current {
@@ -639,16 +643,18 @@ body {
 }
 
 .pagination-item {
-  padding-bottom: 12px;
-  padding-top: 12px;
-  text-align: center;
   background: #82B3D3;
+  width: 60px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
 }
 
 .pagination-item-light {
   padding-bottom: 12px;
   padding-top: 12px;
   text-align: center;
+  width: 60px;
 }
 
 
@@ -657,17 +663,26 @@ body {
   padding-top: 12px;
   text-align: center;
   background: #F2F2F2;
+  width: 60px;
 }
 
 .inner-newsletter {
   background: #FFFFFF;
   color: #000000;
-  width: 1200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  min-height: 414.86px;
+  background-size: 1200px;
+  width: 684px;
+  padding: 96px 258px 104px;
+  display: block;
+}
+
+.inner-field {
+  background: #F2F2F2;
+  border-radius: 4px 0px 0px 4px;
+
+}
+
+.inner-newsletter-description {
+  color: #333333;
 }
 
 .footer-contacts-phone {
