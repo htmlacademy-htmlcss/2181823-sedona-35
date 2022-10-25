@@ -175,7 +175,7 @@ body {
 
 .reasons-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   margin: 0;
   padding: 0;
@@ -363,7 +363,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 167px;
 }
 
 .breadcrumbs {
@@ -392,19 +391,18 @@ body {
   gap: 32px;
 }
 
-.catalog-filter-infra-type {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+.catalog-filter-group-plus {
   padding: 0px;
-  gap: 70px;
-  width: 370.85px;
+  width: 150.43px;
+  margin: 70px;
+  border: none;
 }
 
 .catalog-filter-group {
   padding: 0px;
   width: 150.43px;
-  margin: 0;
+  margin: 140.15px;
+  border: none;
 }
 
 .catalog-filter-list {
@@ -419,6 +417,10 @@ body {
   line-height: 23px;
 }
 
+.control-filter-item {
+  margin-bottom: 16px;
+}
+
 .catalog-filter-list-cost {
   display: flex;
   flex-direction: row;
@@ -431,6 +433,8 @@ body {
   padding: 0px;
   gap: 32px;
   width: 288px;
+  margin-right: 70px;
+  border: none;
 }
 
 .catalog-filter-button-container {
