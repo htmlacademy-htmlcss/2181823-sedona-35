@@ -327,7 +327,9 @@ body {
 
 }
 
-.main-inner {}
+.main-inner {
+  width: 1200px;
+}
 
 .filter-block-container {
   background: url(../images/background-catalog.jpg) no-repeat;
@@ -378,6 +380,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  padding: 0;
 }
 
 
@@ -455,7 +458,7 @@ body {
 .filter-show-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 0px;
   gap: 192px;
@@ -468,6 +471,7 @@ body {
   padding: 0px;
   gap: 70px;
   width: 522px;
+  justify-content: end;
 }
 
 .filter-card-list {
@@ -500,11 +504,12 @@ body {
 }
 
 .hostels-card-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
   padding: 0px;
   gap: 20px;
+  margin: 0px;
+  margin-top: 40px;
 }
 
 .hostels-card {
