@@ -279,7 +279,7 @@ body {
   background: #756157;
   text-decoration: none;
   text-transform: uppercase;
-  padding-block: 8px;
+  padding: 8px 34px 8px 34px;
   padding-inline: 34px;
   border-radius: 4px;
 }
@@ -376,6 +376,7 @@ body {
   gap: 10px;
   padding: 0px;
   margin: 0;
+  list-style-type: none;
 }
 
 .catalog-filter-title {
@@ -416,6 +417,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
+  list-style-type: none;
 }
 
 .control-filter-item {
@@ -464,6 +466,7 @@ body {
   align-items: center;
   padding: 0px;
   gap: 192px;
+  padding-top: 50px;
 }
 
 .filter-sort-container {
@@ -483,6 +486,21 @@ body {
   align-items: center;
   padding: 0px;
   gap: 8px;
+  list-style-type: none;
+}
+
+.button-card {
+  background: none;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  display: block;
+}
+
+.button-black-outline {
+  border: 2px solid #000000;
 }
 
 .filter-hostels-card {
@@ -505,7 +523,10 @@ body {
 .select-control {
   font-weight: 400;
   font-size: 18px;
+  padding: 14px 131px 14px 20px;
   line-height: 21px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
 }
 
 .hostels-card-list {
@@ -522,7 +543,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 140px);
   padding: 20px;
-  gap: 16px;
+  row-gap: 16px;
+  column-gap: 20px;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
 }
@@ -553,8 +575,7 @@ body {
 }
 
 .product-card-more {
-  padding-block: 8px;
-  padding-inline: 26px;
+  padding: 8px 26px 8px 26px;
 }
 
 .product-card-rating-star {
@@ -565,8 +586,7 @@ body {
   margin: 0;
   background: #F2F2F2;
   border-radius: 4px;
-  padding-block: 8px 9px;
-  padding-inline: 22px 23px;
+  padding: 9px 22px 8px 23px;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -608,8 +628,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   background: #82B3D3;
-  padding-block: 8px;
-  padding-inline: 20px;
+  padding: 8px 20px 8px 20px;
   border: none;
 }
 
@@ -629,32 +648,28 @@ body {
   line-height: 36px;
   color: #FFFFFF;
   background: none;
-  padding-block: unset;
-  padding-inline: unset;
-
+  display: block;
+  width: 60px;
+  padding: 12px 0px 12px 0px;
+  background: #82B3D3;
 }
 
 .pagination-link-current {
   color: #000000;
+  background: #F2F2F2;
 }
 
 .pagination-link-light {
   color: #000000;
+  background: none;
 }
 
 .pagination-item {
-  background: #82B3D3;
-  width: 60px;
-  padding-top: 12px;
-  padding-bottom: 12px;
   text-align: center;
 }
 
 .pagination-item-light {
-  padding-bottom: 12px;
-  padding-top: 12px;
   text-align: center;
-  width: 60px;
 }
 
 
@@ -682,10 +697,16 @@ body {
   width: 452px;
   background: #F2F2F2;
   border-radius: 4px 0px 0px 4px;
+  border: none;
 }
 
 .inner-newsletter-description {
   color: #333333;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 54px
 }
 
 .footer-contacts-phone {
