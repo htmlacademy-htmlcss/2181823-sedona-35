@@ -377,11 +377,11 @@ body {
   height: 40px;
 }
 
-.footer-social-link-vk {
+.footer-social-link {
   background: #68A2CA;
 }
 
-.footer-social-link-vk:active {
+.footer-social-link:active {
   background:  rgba(104, 162, 202, 0.3);
 }
 
