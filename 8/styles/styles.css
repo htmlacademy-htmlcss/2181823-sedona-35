@@ -694,7 +694,8 @@ body {
 }
 
 .hero-img {
-  padding: 46px 371px 82px 371px;
+  padding: 46px 0px 82px 0px;
+  margin: 0 auto;
 }
 
 .hostels-search {
