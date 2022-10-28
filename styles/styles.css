@@ -378,11 +378,11 @@ body {
 }
 
 .footer-social-link {
-  background: #68A2CA;
+
 }
 
 .footer-social-link:active {
-  background:  rgba(104, 162, 202, 0.3);
+  background:rgba(104, 162, 202, 0.3);
 }
 
 .copyrate-logo-link:hover {
