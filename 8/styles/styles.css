@@ -251,10 +251,7 @@ body {
   bottom: 80px;
   width: 75px;
   height: 72px;
-}
-
-.icon-home {
-  background-image: url("../images/housing.svg");
+  content: url("../images/housing.svg")
 }
 
 .icon-food {
