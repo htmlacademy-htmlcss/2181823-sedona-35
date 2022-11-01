@@ -150,30 +150,28 @@
           <h2 class="found-hostels">Найдено гостиниц:
             <span class="found-hostels">38</span>
           </h2>
-          <div class="filter-sort-container">
-            <select class="select-control" aria-label="Сортировка">
-              <option value="cheap">Сначала дешёвые</option>
-              <option value="popular">Сначала популярные</option>
-              <option value="expensive">Сначала дорогие</option>
-            </select>
-            <ul class="filter-card-list">
-              <li class="filter-card-item">
-                <a class="button button-card button-black-outline" href="#">
-                  <span class="visually-hidden">Карточки.</span>
-                </a>
-              </li>
-              <li class="filter-card-item">
-                <a class="button button-card" href="#">
-                  <span class="visually-hidden">По одной карточке.</span>
-                </a>
-              </li>
-              <li class="filter-card-item">
-                <a class="button button-card" href="#">
-                  <span class="visually-hidden">Список.</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+          <select class="select-control" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвые</option>
+            <option value="popular">Сначала популярные</option>
+            <option value="expensive">Сначала дорогие</option>
+          </select>
+          <ul class="filter-card-list">
+            <li class="filter-card-item">
+              <a class="button button-card button-black-outline icon-card" href="#">
+                <span class="visually-hidden">Карточки.</span>
+              </a>
+            </li>
+            <li class="filter-card-item">
+              <a class="button button-card icon-one-card" href="#">
+                <span class="visually-hidden">По одной карточке.</span>
+              </a>
+            </li>
+            <li class="filter-card-item">
+              <a class="button button-card icon-list" href="#">
+                <span class="visually-hidden">Список.</span>
+              </a>
+            </li>
+          </ul>
         </div>
         <ul class="hostels-card-list">
           <li class="hostels-card">
@@ -271,7 +269,8 @@
         <p class="inner-newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="newsletter-email">Email</label>
-          <input class="inner-field" type="email" name="newsletter-email" id="newsletter-email" placeholder="Ваш e-mail">
+          <input class="inner-field" type="email" name="newsletter-email" id="newsletter-email"
+            placeholder="Ваш e-mail">
           <button class="news-letter button" type="submit">
             Подписаться
           </button>
