@@ -245,6 +245,14 @@ body {
   list-style-type: none;
 }
 
+.icon-home::before {
+  left: 50%;
+  position: absolute;
+  bottom: 80px;
+  width: 75px;
+  height: 72px;
+}
+
 .icon-home {
   background-image: url("../images/housing.svg");
 }
@@ -617,15 +625,15 @@ body {
 }
 
 .icon-card {
-  background-image: url(../images/view-icon-card.svg);
+  content: url(../images/view-icon-card.svg);
 }
 
 .icon-one-card {
-  background-image: url(../images/view-icon-one.svg);
+  content: url(../images/view-icon-one.svg);
 }
 
 .icon-list {
-  background-image: url(../images/view-icon-list.svg);
+  content: url(../images/view-icon-list.svg);
 }
 
 .button-black-outline {
