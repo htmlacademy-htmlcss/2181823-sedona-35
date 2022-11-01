@@ -238,7 +238,7 @@ body {
   padding: 92px 85px 111px 85px;
 }
 
-.devider {
+.devider::before {
   width: 60px;
   height: 2px;
 }
