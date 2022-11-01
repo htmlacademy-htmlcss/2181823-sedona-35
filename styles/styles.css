@@ -438,24 +438,24 @@ body {
   background:rgba(104, 162, 202, 0.3);
 }
 
-.copyrate-logo-link:hover {
+.copyrate-logo-img:hover {
   background-color: #756157;
 }
 
-.copyrate-logo-link:active {
+.copyrate-logo-img:active {
   background-color: rgba(117, 97, 87, 0.3);
 }
 
 .footer-social-link-vk {
-  background-image: url("../images/vk.svg");
+  background:rgba(104, 162, 202, 0.3);
 }
 
 .footer-social-link-tg {
-  background-image: url("../images/telegramm.svg");
+  background:rgba(104, 162, 202, 0.3);
 }
 
 .footer-social-link-youtube {
-  background-image: url("../images/youtube.svg");
+  background:rgba(104, 162, 202, 0.3);
 }
 
 .main-inner {
