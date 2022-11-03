@@ -190,6 +190,12 @@ body {
   margin-bottom: 62px;
 }
 
+.reasons-header::after {
+  width: 60px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .reasons-description {
   text-align: center;
   margin: 0;
@@ -198,7 +204,8 @@ body {
 .resons-main {
   color: #000000;
   background-color: #FFFFFF;
-
+  position: absolute;
+  left: 50%;
 }
 
 .reasons-minor {
@@ -238,11 +245,6 @@ body {
   padding: 92px 85px 111px 85px;
 }
 
-.devider::before {
-  width: 60px;
-  height: 2px;
-}
-
 .reasons-feachers-item {
   width: 230px;
   padding: 80px 85px 81px 85px;
@@ -258,24 +260,34 @@ body {
   text-align: center;
   margin: 0;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .icon-home::before {
+  display: block;
   width: 75px;
   height: 72px;
   content: url("../images/housing.svg");
+  position: absolute;
+  left: 50%;
 }
 
 .icon-food::before {
+  display: block;
   width: 75px;
   height: 72px;
   content: url("../images/food.svg");
+  position: absolute;
+  left: 50%;
 }
 
 .icon-souvenirs::before {
+  display: block;
   width: 75px;
   height: 72px;
   content: url("../images/souvenirs.svg");
+  position: absolute;
+  left: 50%;
 }
 
 .fact-reasons {
@@ -668,7 +680,8 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  margin-right: 200px;
+  margin: 0;
+  margin-right: 165px;
 }
 
 .select-control {
