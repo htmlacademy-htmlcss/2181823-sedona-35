@@ -458,15 +458,15 @@ body {
 }
 
 .copyrate-logo-img:hover {
-  fill: #756157;
+  color: #756157;
 }
 
 .copyrate-logo-img:active {
-  fill: rgba(117, 97, 87, 0.3);
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .footer-social-link-icon:hover {
-  fill: rgba(104, 162, 202, 0.3);
+  color: #68A2CA;
 }
 
 .main-inner {
