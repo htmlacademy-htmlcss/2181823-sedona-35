@@ -70,6 +70,14 @@ body {
   margin-left: 170px;
 }
 
+.navigation-list-item {
+  display: block;
+}
+
+.navigation-item {
+  display: block;
+}
+
 .navigation-item-button {
   margin-left: 20px;
 }
@@ -278,7 +286,8 @@ body {
   height: 72px;
   content: url("../images/food.svg");
   position: absolute;
-  left: 50%;
+  left: 33%;
+  top: -100px;
 }
 
 .icon-souvenirs::before {
@@ -287,7 +296,8 @@ body {
   height: 72px;
   content: url("../images/souvenirs.svg");
   position: absolute;
-  left: 50%;
+  left: 33%;
+  top: -100px;
 }
 
 .fact-reasons {
@@ -447,30 +457,16 @@ body {
   height: 40px;
 }
 
-.footer-social-li {}
-
-.footer-social-link:active {
-  background: rgba(104, 162, 202, 0.3);
-}
-
 .copyrate-logo-img:hover {
-  background-color: #756157;
+  fill: #756157;
 }
 
 .copyrate-logo-img:active {
-  background-color: rgba(117, 97, 87, 0.3);
+  fill: rgba(117, 97, 87, 0.3);
 }
 
-.footer-social-link-vk:hover {
-  background: rgba(104, 162, 202, 0.3);
-}
-
-.footer-social-link-tg:hover {
-  background: rgba(104, 162, 202, 0.3);
-}
-
-.footer-social-link-youtube:hover {
-  background: rgba(104, 162, 202, 0.3);
+.footer-social-link-icon:hover {
+  fill: rgba(104, 162, 202, 0.3);
 }
 
 .main-inner {
