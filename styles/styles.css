@@ -84,10 +84,12 @@ body {
 
 .navigation-link {
   padding: 20px 18px;
+  display: block;
 }
 
 .navigation-link-user {
   padding: 20px 12px;
+  display: block;
 }
 
 .navigation-user {
@@ -457,11 +459,11 @@ body {
   height: 40px;
 }
 
-.copyrate-logo-img:hover {
+.copyrate-logo-link:hover {
   color: #756157;
 }
 
-.copyrate-logo-img:active {
+.copyrate-logo-link:active {
   color: rgba(117, 97, 87, 0.3);
 }
 
