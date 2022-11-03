@@ -204,8 +204,6 @@ body {
 .resons-main {
   color: #000000;
   background-color: #FFFFFF;
-  position: absolute;
-  left: 50%;
 }
 
 .reasons-minor {
@@ -261,6 +259,7 @@ body {
   margin: 0;
   margin-bottom: 30px;
   position: relative;
+  margin-top: 102px;
 }
 
 .icon-home::before {
@@ -269,7 +268,8 @@ body {
   height: 72px;
   content: url("../images/housing.svg");
   position: absolute;
-  left: 50%;
+  left: 33%;
+  top: -100px;
 }
 
 .icon-food::before {
@@ -412,7 +412,7 @@ body {
 }
 
 .footer-contacts-phone:active {
- color: rgba(117, 97, 87, 0.3);
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .footer-social-container {
@@ -447,12 +447,10 @@ body {
   height: 40px;
 }
 
-.footer-social-li {
-
-}
+.footer-social-li {}
 
 .footer-social-link:active {
-  background:rgba(104, 162, 202, 0.3);
+  background: rgba(104, 162, 202, 0.3);
 }
 
 .copyrate-logo-img:hover {
@@ -464,15 +462,15 @@ body {
 }
 
 .footer-social-link-vk:hover {
-  background:rgba(104, 162, 202, 0.3);
+  background: rgba(104, 162, 202, 0.3);
 }
 
 .footer-social-link-tg:hover {
-  background:rgba(104, 162, 202, 0.3);
+  background: rgba(104, 162, 202, 0.3);
 }
 
 .footer-social-link-youtube:hover {
-  background:rgba(104, 162, 202, 0.3);
+  background: rgba(104, 162, 202, 0.3);
 }
 
 .main-inner {
@@ -790,6 +788,7 @@ body {
 .hero-img {
   padding: 46px 0px 82px 0px;
   margin: 0 auto;
+  display: block;
 }
 
 .hostels-search {
@@ -854,9 +853,7 @@ body {
 }
 
 
-.pagination-item-current {
-
-}
+.pagination-item-current {}
 
 .inner-newsletter {
   background: #FFFFFF;
