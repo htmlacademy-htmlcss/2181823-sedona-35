@@ -87,9 +87,17 @@ body {
   display: block;
 }
 
+.navigation-link:hover {
+  background-color: #E5E5E5;
+}
+
 .navigation-link-user {
   padding: 20px 12px;
   display: block;
+}
+
+.navigation-link-user:hover {
+  background-color: #E5E5E5;
 }
 
 .navigation-user {
@@ -100,6 +108,7 @@ body {
   flex-wrap: wrap;
   width: 398px;
   justify-content: end;
+  align-items: center;
 }
 
 .navigation-link {
@@ -204,6 +213,9 @@ body {
   width: 60px;
   height: 2px;
   background-color: rgba(0, 0, 0, 0.3);
+  content: " ";
+  margin-top: 53px;
+  margin-left: -85px;
 }
 
 .reasons-description {
@@ -457,6 +469,7 @@ body {
   background-position: center;
   width: 47px;
   height: 40px;
+  color: #83B3D3;
 }
 
 .copyrate-logo-link:hover {
@@ -608,6 +621,35 @@ body {
 .control-input {
   width: 143px;
   height: 48px;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 2px solid #242424;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background-color: #dbb590;
+}
+
+.range-toggle:active,
+.range-toggle:focus {
+  outline: 3px solid #dbb590;
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
 }
 
 .filter-show-container {

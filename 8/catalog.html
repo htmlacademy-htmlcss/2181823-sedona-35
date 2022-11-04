@@ -130,18 +130,31 @@
               <legend class="catalog-filter-title">Стоимость,Р:</legend>
               <ul class="catalog-filter-list-cost">
                 <li class="control-filter-item">
-                  <input class="control-input" type="text" placeholder="от">
-                  <span class="visually-hidden">Цена от</span>
+                  <label class="catalog-filter-label">
+                    <input class="control-input" type="text" placeholder="от">
+                  </label>
                 </li>
                 <li class="control-filter-item">
-                  <input class="control-input" type="text" placeholder="до">
-                  <span class="visually-hidden">Цена до</span>
-                </li class="control-filter-item control-filter-item-submit">
+                  <label class="catalog-filter-label">
+                    <input class="control-input" type="text" placeholder="до">
+                  </label>
+                  <div class="range-scale">
+                    <div class="range-bar" style="left: 42px; width: 136px">
+                      <button class="range-toggle toggle-min">
+                        <span class="visually-hidden">Изменить минимальную цену.</span>
+                      </button>
+                      <button class="range-toggle toggle-max">
+                        <span class="visually-hidden">Изменить максимальную цену.</span>
+                      </button>
+                    </div>
+                </li class="control-filter-item ">
             </fieldset>
-            <div class="catalog-filter-button-container">
-              <button class="button submit" type="submit">Применить</button>
-              <button class="button reset" type="reset">Сбросить</button>
-            </div>
+            <li class="control-filter-item-submit">
+              <div class="catalog-filter-button-container">
+                <button class="button submit" type="submit">Применить</button>
+                <button class="button reset" type="reset">Сбросить</button>
+              </div>
+            </li>
           </form>
         </section>
       </div>
@@ -270,7 +283,7 @@
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="newsletter-email">Email</label>
           <input class="inner-field" type="email" name="newsletter-email" id="newsletter-email"
-            placeholder="Ваш e-mail">
+            placeholder="    Ваш e-mail">
           <button class="news-letter button" type="submit">
             Подписаться
           </button>
