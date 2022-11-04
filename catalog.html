@@ -126,27 +126,21 @@
               </ul>
             </fieldset>
             <fieldset class="catalog-filter-group-cost">
-              <legend class="catalog-filter-title">Стоимость,Р:</legend>
-              <ul class="catalog-filter-list-cost">
-                <li class="control-filter-item">
-                  <label class="catalog-filter-label">
-                    <input class="control-input" type="text" placeholder="от">
-                  </label>
-                </li>
-                <li class="control-filter-item">
-                  <label class="catalog-filter-label">
-                    <input class="control-input" type="text" placeholder="до">
-                  </label>
-                  <div class="range-scale">
-                    <div class="range-bar" style="left: 42px; width: 136px">
-                      <button class="range-toggle toggle-min">
-                        <span class="visually-hidden">Изменить минимальную цену.</span>
-                      </button>
-                      <button class="range-toggle toggle-max">
-                        <span class="visually-hidden">Изменить максимальную цену.</span>
-                      </button>
-                    </div>
-                </li class="control-filter-item ">
+              <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+              <div class="range">
+                <div class="price-wrapper">
+                  <label for="price-min" class="visually-hidden">цена от</label>
+                  <input id="price-min" class="input-price-min" type="number" value="0">
+                  <label for="price-max" class="visually-hidden">цена до</label>
+                  <input id="price-max" class="input-price-max" type="number" value="9000">
+                </div>
+                <div class="range-scale">
+                  <div class="range-bar" style="width: 226px">
+                    <button type="button" class="range-toggle toggle-min"></button>
+                    <button type="button" class="range-toggle toggle-max"></button>
+                  </div>
+                </div>
+              </div>
             </fieldset>
             <li class="control-filter-item-submit">
               <div class="catalog-filter-button-container">
