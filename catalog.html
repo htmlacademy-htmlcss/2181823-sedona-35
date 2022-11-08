@@ -126,53 +126,56 @@
               </ul>
             </fieldset>
             <fieldset class="catalog-filter-group-cost">
-              <legend class="catalog-filter-title">Стоимость,Р:</legend>
-              <ul class="catalog-filter-list-cost">
-                <li class="control-filter-item">
-                  <input class="control-input" type="text" placeholder="от">
-                  <span class="visually-hidden">Цена от</span>
-                </li>
-                <li class="control-filter-item">
-                  <input class="control-input" type="text" placeholder="до">
-                  <span class="visually-hidden">Цена до</span>
-                </li class="control-filter-item control-filter-item-submit">
+              <legend class="catalog-filter-title-cost">Стоимость, ₽:</legend>
+              <div class="range">
+                <div class="price-wrapper">
+                  <label for="price-min" class="visually-hidden">цена от</label>
+                  <input id="price-min" class="input-price-min" type="number" value="0">
+                  <label for="price-max" class="visually-hidden">цена до</label>
+                  <input id="price-max" class="input-price-max" type="number" value="9000">
+                </div>
+                <div class="range-scale">
+                  <div class="range-bar" style="width: 226px">
+                    <button type="button" class="range-toggle toggle-min"></button>
+                    <button type="button" class="range-toggle toggle-max"></button>
+                  </div>
+                </div>
+              </div>
             </fieldset>
-            <div class="catalog-filter-button-container">
-              <button class="button submit" type="submit">Применить</button>
-              <button class="button reset" type="reset">Сбросить</button>
-            </div>
+              <div class="catalog-filter-button-container">
+                <button class="button submit" type="submit">Применить</button>
+                <button class="button reset" type="reset">Сбросить</button>
+              </div>
           </form>
         </section>
       </div>
       <section class="filter-hostels-card">
         <div class="filter-show-container">
           <h2 class="found-hostels">Найдено гостиниц:
-            <span class="found-hostels">38</span>
+            <span class="found-hostels-number">38</span>
           </h2>
-          <div class="filter-sort-container">
-            <select class="select-control" aria-label="Сортировка">
-              <option value="cheap">Сначала дешёвые</option>
-              <option value="popular">Сначала популярные</option>
-              <option value="expensive">Сначала дорогие</option>
-            </select>
-            <ul class="filter-card-list">
-              <li class="filter-card-item">
-                <a class="button button-card button-black-outline" href="#">
-                  <span class="visually-hidden">Карточки.</span>
-                </a>
-              </li>
-              <li class="filter-card-item">
-                <a class="button button-card" href="#">
-                  <span class="visually-hidden">По одной карточке.</span>
-                </a>
-              </li>
-              <li class="filter-card-item">
-                <a class="button button-card" href="#">
-                  <span class="visually-hidden">Список.</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+          <select class="select-control" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвые</option>
+            <option value="popular">Сначала популярные</option>
+            <option value="expensive">Сначала дорогие</option>
+          </select>
+          <ul class="filter-card-list">
+            <li class="filter-card-item">
+              <a class="button button-card icon-card" href="#">
+                <span class="visually-hidden">Карточки.</span>
+              </a>
+            </li>
+            <li class="filter-card-item">
+              <a class="button button-card icon-one-card" href="#">
+                <span class="visually-hidden">По одной карточке.</span>
+              </a>
+            </li>
+            <li class="filter-card-item">
+              <a class="button button-card icon-list" href="#">
+                <span class="visually-hidden">Список.</span>
+              </a>
+            </li>
+          </ul>
         </div>
         <ul class="hostels-card-list">
           <li class="hostels-card">
@@ -270,7 +273,8 @@
         <p class="inner-newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="newsletter-email">Email</label>
-          <input class="inner-field" type="email" name="newsletter-email" id="newsletter-email" placeholder="Ваш e-mail">
+          <input class="inner-field" type="email" name="newsletter-email" id="newsletter-email"
+            placeholder="    Ваш e-mail">
           <button class="news-letter button" type="submit">
             Подписаться
           </button>
