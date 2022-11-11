@@ -46,13 +46,12 @@ body {
   position: relative;
 }
 
-.page-header-logo:hover {
-  color: #68a2ca;
+.page-header-logo[href]:hover {
+  opacity: 80%;
 }
 
-.page-header-logo:active {
-  color: #68a2ca;
-  opacity: 30%;
+.page-header-logo[href]:active {
+  opacity: 50%;
 }
 
 .page-header-logo {
@@ -104,7 +103,7 @@ body {
   text-decoration: none;
 }
 
-.navigation-link:hover {
+.navigation-link[href]:hover {
   background-color: #e5e5e5;
 }
 
@@ -141,13 +140,12 @@ body {
 
 .number-like {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  padding: 5px 5px 5px 5px;
   left: 20px;
   top: 11px;
   background-color: #7db54f;
   border-radius: 10px;
-  text-align: center;
+  display: flex;
 }
 
 .number {
@@ -156,8 +154,8 @@ body {
   font-weight: 400;
   font-size: 10px;
   line-height: 10px;
-  text-align: center;
   color: #ffffff;
+  margin: 0 auto;
 }
 
 .main-container {
@@ -247,13 +245,36 @@ body {
   position: relative;
 }
 
+.reasons-header-main {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 30px;
+  margin-bottom: 32px;
+  position: relative;
+}
+
 .reasons-header::after {
   width: 60px;
   height: 2px;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.3);
   content: " ";
-  top: 74px;
+  bottom: 0;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.reasons-header-main::after {
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.3);
+  content: " ";
+  bottom: 0;
   transform: translateX(-50%);
   left: 50%;
 }
@@ -428,8 +449,8 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   padding: 8px 34px 8px 34px;
-  padding-inline: 34px;
   border-radius: 4px;
+  display: block;
 }
 
 .button:hover,
@@ -472,6 +493,7 @@ body {
   width: 452px;
   border: none;
   border-radius: 4px 0 0 4px;
+  padding-left: 20px;
 }
 
 .page-footer {
@@ -585,6 +607,15 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
+  cursor: pointer;
+}
+
+.breadcrumbs-link:hover {
+  opacity: 60%;
+}
+
+.breadcrumbs-link:active {
+  opacity: 30%;
 }
 
 .catalog-filter {
@@ -603,6 +634,12 @@ body {
   padding: 0;
   margin: 0;
   list-style-type: none;
+  position: relative;
+}
+
+.icon-breadcrumbs-arrow::after {
+  content: url("../images/arrow-right.svg");
+  position: relative;
 }
 
 .catalog-filter-title {
@@ -649,6 +686,47 @@ body {
 
 .control-filter-item {
   margin-top: 16px;
+}
+
+.control {
+  display: block;
+  position: relative;
+}
+
+.control-mark {
+  content: url(../images/check-mark.svg);
+  position: relative;
+  border-radius: 4px;
+  padding: 6px 3.8px 4.1px 4px;
+  background-color: #ffffff;
+  margin-right: 16px;
+  color: #3f5e72;
+}
+
+.control-mark-hotel {
+  content: url(../images/circle.svg);
+  color: #3f5e72;
+  position: relative;
+  background-color: #ffffff;
+  padding: 5px 5px 5px 5px;
+  margin-right: 16px;
+  border-radius: 10px;
+}
+
+.control-mark:hover {
+  opacity: 60%;
+}
+
+.control-mark-hotel:hover {
+  opacity: 60%;
+}
+
+.control-mark:active {
+  opacity: 30%;
+}
+
+.control-mark-hotel:active {
+  opacity: 30%;
 }
 
 .catalog-filter-list-cost {
@@ -708,6 +786,8 @@ body {
   width: 83px;
   border: none;
   border-radius: 4px 0 0 4px;
+  appearance: none;
+  position: relative;
 }
 
 .input-price-max {
@@ -719,6 +799,38 @@ body {
   width: 83px;
   border: none;
   border-radius: 0 4px 4px 0;
+  appearance: none;
+  position: relative;
+}
+
+.input-price-min:hover {
+  background: #e6e6e6;
+  appearance: none;
+}
+
+.input-price-max:hover {
+  background: #e6e6e6;
+  appearance: none;
+}
+
+.input-price-min:active {
+  border: 2px solid #000000;
+  appearance: none;
+}
+
+.input-price-max:active {
+  border: 2px solid #000000;
+  appearance: none;
+}
+
+.price-min {
+  position: absolute;
+  color: #000000;
+}
+
+.price-max {
+  position: absolute;
+  color: #000000;
 }
 
 .range-scale {
@@ -842,11 +954,19 @@ body {
 .select-control {
   font-weight: 400;
   font-size: 18px;
-  padding: 14px 131px 14px 20px;
+  padding: 14px 5px 14px 20px;
   line-height: 21px;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   margin-right: 70px;
+  box-sizing: border-box;
+  display: block;
+  width: 292px;
+  min-height: 49px;
+  appearance: none;
+  background-image: url(../images/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: 255px;
 }
 
 .select-control:hover,
@@ -960,8 +1080,11 @@ body {
 .hostels-search {
   font-size: 20px;
   line-height: 36px;
-  padding-inline: 50px;
+  padding-inline: 5px;
   width: 376px;
+  min-height: 52px;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .product-favroite {
@@ -1025,15 +1148,21 @@ body {
   width: 60px;
   padding: 12px 0 12px 0;
   background-color: #82b3d3;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: 700;
+  text-align: center;
 }
 
-.pagination-link:hover,
-.pagination-link:focus {
+.pagination-link:hover[href],
+.pagination-link:focus[href] {
   background-color: #68a2ca;
   opacity: 100%;
 }
 
-.pagination-link:active {
+.pagination-link:active[href] {
   background: #82b3d3;
   color: #ffffff4d;
 }
@@ -1074,6 +1203,7 @@ body {
   background: #f2f2f2;
   border-radius: 4px 0 0 4px;
   border: none;
+  padding-left: 20px;
 }
 
 .inner-newsletter-description {
@@ -1126,7 +1256,7 @@ body {
 }
 
 .reset:focus {
-  border: 3px solid #83b3d3;
+  outline: 3px solid #83b3d3;
   background-color: transparent;
 }
 
@@ -1152,7 +1282,7 @@ html {
   display: flex;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(242, 242, 242, 0.8);
 }
 
 .modal {
@@ -1167,13 +1297,14 @@ html {
   background-color: #ffffff;
   width: 717px;
   border-radius: 30px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
 }
 
 .modal-close-button {
   position: absolute;
   padding: 0;
-  top: 0;
-  right: 0;
+  top: 75px;
+  right: 200px;
   width: 52px;
   height: 52px;
   background-color: #f2f2f2;
@@ -1182,29 +1313,39 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+  border-radius: 50px;
 }
 
-.find-form .field-group {
+.field-group {
   margin: 0;
   margin-bottom: 48px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.find-form {
-  display: flex;
-  justify-content: space-between;
+.date-form {
+  width: 577px;
   font-weight: 700;
 }
 
-.find-form-field {
+.date-form-field {
   width: 440px;
   border-radius: 4px;
   background: #f2f2f2;
   padding-top: 12px;
   padding-left: 20px;
   padding-bottom: 12px;
+  box-sizing: border-box;
 }
 
-.find-form-label {
+.date-form-label-out {
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 18px;
+}
+
+.date-form-label-in {
   font-size: 20px;
   line-height: 24px;
   margin-right: 24px;
@@ -1213,15 +1354,109 @@ html {
 .modal-title {
   margin: 0;
   margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
 }
 
-.find-form-search {
+.message-form {
+  margin: 0;
+  display: block;
+  min-height: 21px;
+  margin-left: 157px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.visitors-label {
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 44px;
+}
+
+.visitors-input {
+  display: flex;
+  flex-direction: row;
+  width: 110px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  min-height: 48px;
+}
+
+.visitors-input:not(:last-child) {
+  margin-right: 88px;
+}
+
+.message-form-error {
+  color: #ff5757;
+}
+
+.date-form-search {
   padding: 17px 257px;
   background: #83b3d3;
   border-radius: 10px;
   text-align: center;
   font-size: 20px;
   line-height: 24px;
+}
+
+.visitors-number-field {
+  border: none;
+  background: #f2f2f2;
+  text-align: center;
+  width: 31px;
+  height: 48px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.visitors-number-less {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  height: 48px;
+  border: none;
+}
+
+.visitors-number-more {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  height: 48px;
+  border: none;
+}
+
+.visitors-number-less:hover path {
+  fill: #000000;
+  fill-opacity: 100%;
+}
+
+.visitors-number-more:hover path {
+  fill: #000000;
+  fill-opacity: 100%;
+}
+
+.field-group-number {
+  display: flex;
+  flex-direction: row;
+}
+
+.visitors-button {
+  width: 40px;
+}
+
+.find-form-search {
+  background-color: #83b3d3;
+  width: 577px;
+  height: 60px;
+  text-align: center;
+  padding: 0;
 }
 
 .find-form-search:hover,
