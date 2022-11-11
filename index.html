@@ -62,7 +62,7 @@
               </a>
             </li>
             <li class="navigation-item-button">
-              <a class="navigation-link button" href="#">
+              <a class="button" href="#">
                 Хочу сюда
               </a>
             </li>
@@ -91,7 +91,7 @@
           <ul class="reasons-list">
             <li class="reasons-item-with-picture">
               <div class="reasons-visit reasons-item">
-                <h3 class="reasons-header">Настоящий городок</h3>
+                <h3 class="reasons-header-main">Настоящий городок</h3>
                 <p class="reasons-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               </div>
               <img class="city" src="images/city.jpg" alt="город Седона." width="800" height="384">
@@ -111,7 +111,7 @@
             <li class="reasons-item-with-picture">
               <img class="bridge" src="images/bridge.jpg" alt="Мост Дьявола." width="800" height="384">
               <div class="reasons-visit reasons-item">
-                <h3 class="reasons-header">Там есть<br> мост дьявола</h3>
+                <h3 class="reasons-header-main">Там есть<br> мост дьявола</h3>
                 <p class="reasons-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
             </li>
@@ -142,8 +142,7 @@
           <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
             <label class="visually-hidden" for="newsletter-email">Email</label>
-            <input class="field" type="email" name="newsletter-email" id="newsletter-email"
-              placeholder="    Ваш e-mail">
+            <input class="field" type="email" name="newsletter-email" id="newsletter-email" placeholder="Ваш e-mail">
             <button class="news-letter button" type="submit">
               Подписаться
             </button>
@@ -201,21 +200,61 @@
         </div>
       </footer>
       <div class="modal-container">
-        <div class="modal modal-auth">
+        <div class="modal">
           <button class="modal-close-button">
             <span class="visually-hidden">Закрыть</span>
           </button>
           <section class="modal-content">
             <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-            <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+            <form class="date-form" action="https://echo.htmlacademy.ru/" method="post">
               <p class="field-group">
-                <label class="find-form-label" for="find-login">Дата заезда:</label>
-                <input class="find-form-field field" type="text" id="find-login" name="find-login" placeholder="27 апреля 2020">
+                <label class="date-form-label-in" for="find-login">Дата заезда:</label>
+                <input class="date-form-field field" type="text" id="find-login" name="find-login"
+                  placeholder="27 апреля 2020">
+                <span class="message-form message-form-error">Мы не можем отправить вас в прошлое.</span>
               </p>
               <p class="field-group">
-                <label class="find-form-label" for="find-password">Дата выезда:</label>
-                <input class="find-form-field field" type="text" id="find-password" name="find-password" placeholder="1 сентября 2023">
+                <label class="date-form-label-out" for="find-password">Дата выезда:</label>
+                <input class="date-form-field field" type="text" id="find-password" name="find-password"
+                  placeholder="1 сентября 2023">
+                <span class="message-form">На эти даты есть свободные номера. Пока есть.</span>
               </p>
+              <div class="field-group field-group-number">
+                <label class="visitors-label" for="find-hotel-adults">Взрослые:</label>
+                <div class="visitors-input">
+                  <button class="visitors-number-less" type="button">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" fill="#756157" fill-opacity="0.3" />
+                    </svg>
+                  </button>
+                  <input class="visitors-number-field" type="number" id="find-hotel-adults" name="adults"
+                    placeholder="2">
+                  <button class="visitors-number-more" type="button">
+                    <svg width="14" height="2" viewBox="0 0 14 2" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0L0 2L14 2V0L0 0Z" fill="#756157" fill-opacity="0.3" />
+                    </svg>
+                  </button>
+                </div>
+                <label class="visitors-label" for="find-hotel-children">Дети:</label>
+                <div class="visitors-input">
+                  <button class="visitors-number-less" type="button">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" fill="#756157" fill-opacity="0.3" />
+                    </svg>
+                  </button>
+                  <input class="visitors-number-field" type="number" id="find-hotel-children" name="children"
+                    placeholder="2">
+                  <button class="visitors-number-more" type="button">
+                    <svg width="14" height="2" viewBox="0 0 14 2" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0L0 2L14 2V0L0 0Z" fill="#756157" fill-opacity="0.3" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
               <a class="button find-form-search" href="#">Найти</a>
             </form>
           </section>
@@ -223,4 +262,5 @@
       </div>
     </div>
   </body>
+
 </html>
