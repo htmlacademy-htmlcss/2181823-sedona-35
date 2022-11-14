@@ -17,7 +17,7 @@
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
-  min-height: 100%;
+  min-height: 1200px;
   line-height: 21px;
   font-weight: 400;
   color: #000000;
@@ -40,8 +40,7 @@ body {
   background-color: #ffffff;
   display: flex;
   width: 1060px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 0 70 0 70px;
   min-height: 64px;
   position: relative;
 }
@@ -254,7 +253,7 @@ body {
   font-weight: 700;
   text-align: center;
   margin: 0;
-  padding-bottom: 30px;
+  padding: 0 0 30px 0;
   margin-bottom: 32px;
   position: relative;
 }
@@ -266,7 +265,7 @@ body {
   font-weight: 700;
   text-align: center;
   margin: 0;
-  padding-bottom: 30px;
+  padding: 0 0 30px 0;
   margin-bottom: 32px;
   position: relative;
 }
@@ -503,7 +502,7 @@ body {
 
 .news-letter:active {
   background: #82b3d3;
-  color: #ffffff4d;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .field {
@@ -1016,8 +1015,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 0 70px 0 70px;
 }
 
 
@@ -1204,7 +1202,7 @@ body {
 
 .product-favroite:active {
   background: #82b3d3;
-  color: #ffffff4d;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .favorite:hover,
@@ -1215,7 +1213,7 @@ body {
 
 .favorite:active {
   background: #7db54f;
-  color: #ffffff4d;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .pagination {
@@ -1255,7 +1253,7 @@ body {
 
 .pagination-link:active[href] {
   background: #82b3d3;
-  color: #ffffff4d;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .pagination-link-current {
@@ -1335,7 +1333,7 @@ body {
 
 .submit:active {
   background: #82b3d3;
-  color: #ffffff4d;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 
@@ -1433,9 +1431,7 @@ html {
   width: 440px;
   border-radius: 4px;
   background: #f2f2f2;
-  padding-top: 12px;
-  padding-left: 20px;
-  padding-bottom: 12px;
+  padding: 12px 20px 12px 20px;
   box-sizing: border-box;
   background-image: url("../images/calendar.svg");
   background-repeat: no-repeat;
@@ -1444,6 +1440,8 @@ html {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  line-height: 24px;
+  border: none;
 }
 
 .date-form-label-out {
@@ -1471,12 +1469,13 @@ html {
   margin: 0;
   display: block;
   min-height: 21px;
-  margin-left: 157px;
+  margin-left: 137px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #333333;
+  padding: 4px 20px 0 20px;
 }
 
 .visitors-label-adults {
@@ -1644,6 +1643,10 @@ html {
   padding: 18px 10px;
   border-radius: 10px;
   margin-top: 48px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .find-form-search:hover,
@@ -1654,5 +1657,9 @@ html {
 
 .find-form-search:active {
   background: #68a2ca;
-  color: #ffffff4d;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.date-form-field:hover {
+  background-color: #e6e6e6;
 }
