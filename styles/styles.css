@@ -939,6 +939,22 @@ body {
   cursor: pointer;
 }
 
+.control-input:focus-visible + .control-mark {
+  outline: 3px solid #82b2d2ff;
+}
+
+.control-input:active + .control-mark {
+  outline: 2px solid #82b2d2ff;
+}
+
+.control-input:focus-visible + .control-mark-hotel {
+  outline: 3px solid #82b2d2ff;
+}
+
+.control-input:active + .control-mark-hotel {
+  outline: 2px solid #82b2d2ff;
+}
+
 .toggle-min {
   top: -8px;
 }
