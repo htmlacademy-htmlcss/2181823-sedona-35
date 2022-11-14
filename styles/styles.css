@@ -1690,3 +1690,7 @@ html {
 .date-form-field:hover {
   background-color: #e6e6e6;
 }
+
+.button:disabled {
+  background: #e5e5e5;
+}
