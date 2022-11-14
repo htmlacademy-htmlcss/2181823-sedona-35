@@ -40,7 +40,7 @@ body {
   background-color: #ffffff;
   display: flex;
   width: 1060px;
-  padding: 0 70 0 70px;
+  padding: 0 70px 0 70px;
   min-height: 64px;
   position: relative;
 }
@@ -131,8 +131,14 @@ body {
   position: relative;
 }
 
-.navigation-link-user:hover {
-  background-color: #e5e5e5;
+.navigation-link-user:hover path {
+  fill: #68a2ca;
+  fill-opacity: 70%;
+}
+
+.navigation-link-user:active path {
+  fill: #68a2ca;
+  fill-opacity: 30%;
 }
 
 .navigation-user {
@@ -724,6 +730,10 @@ body {
   padding-left: 36px;
 }
 
+.control:focus {
+  outline: 2px solid #000000;
+}
+
 .control-mark {
   position: absolute;
   top: 0;
@@ -1156,6 +1166,7 @@ body {
   width: 1200px;
   min-height: 485px;
   display: block;
+  background-color: #8fd3d3;
 }
 
 .hero-img {
