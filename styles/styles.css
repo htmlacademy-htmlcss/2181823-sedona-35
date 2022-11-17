@@ -14,10 +14,15 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   min-width: 1200px;
+  min-height: 100%;
   line-height: 21px;
   font-weight: 400;
   color: #000000;
@@ -250,6 +255,7 @@ body {
   flex-direction: row;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .reasons-header {
@@ -490,10 +496,14 @@ body {
   opacity: 100%;
 }
 
+.button:disabled {
+  background: #e5e5e5;
+}
+
 .news-letter {
   font-size: 20px;
   line-height: 36px;
-  background-color: #82b3d3;
+  background: #82b3d3;
   color: #ffffff;
   border: none;
   padding-inline: 50px;
@@ -503,7 +513,7 @@ body {
 
 .news-letter:hover,
 .news-letter:focus {
-  background-color: #68a2ca;
+  background: #68a2ca;
   opacity: 100%;
 }
 
@@ -522,6 +532,14 @@ body {
   border-radius: 4px 0 0 4px;
   padding: 14px 20px 12px 20px;
   box-sizing: border-box;
+}
+
+.field:hover {
+  background: #e6e6e6;
+}
+
+.field:disabled {
+  opacity: 30%;
 }
 
 .page-footer {
@@ -679,6 +697,7 @@ body {
   margin: 0;
   list-style-type: none;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .breadcrumbs-item:not(:last-of-type)::after {
@@ -758,6 +777,14 @@ body {
   height: 20px;
   background-color: #ffffff;
   border-radius: 4px;
+}
+
+.control-input:disabled + .control-mark {
+  opacity: 30%;
+}
+
+.control-input:disabled + .control-mark-hotel {
+  opacity: 30%;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before {
@@ -1087,6 +1114,12 @@ body {
   border: 2px solid #3f5e72;
 }
 
+.select-control:disabled {
+  opacity: 30%;
+  border: 2px solid #000000;
+  color: #000000;
+}
+
 .hostels-card-list {
   display: grid;
   grid-template-columns: repeat(3, 340px);
@@ -1149,6 +1182,8 @@ body {
   background-image: url("../images/star.svg");
   background-repeat: space;
   margin: 10px auto 10px 0;
+  align-self: center;
+  height: 17px;
 }
 
 .star4 {
@@ -1258,6 +1293,7 @@ body {
   width: 1060px;
   list-style: none;
   margin-top: 38px;
+  flex-wrap: wrap;
 }
 
 .pagination-link {
@@ -1329,6 +1365,14 @@ body {
   font-family: "PT Sans", sans-serif;
 }
 
+.inner-field:hover {
+  background: #e6e6e6;
+}
+
+.inner-field:disabled {
+  opacity: 30%;
+}
+
 .inner-newsletter-description {
   color: #333333;
   font-size: 22px;
@@ -1359,7 +1403,7 @@ body {
 
 .submit:hover,
 .submit:focus {
-  background-color: #68a2ca;
+  background: #68a2ca;
   opacity: 100%;
 }
 
@@ -1371,7 +1415,7 @@ body {
 
 .reset {
   width: 191px;
-  background-color: transparent;
+  background: transparent;
   border: none;
 }
 
@@ -1382,11 +1426,18 @@ body {
 
 .reset:focus {
   outline: 3px solid #83b3d3;
-  background-color: transparent;
+  background: transparent;
+  opacity: 100%;
 }
 
-html {
-  height: 100%;
+.reset:disabled {
+  background: transparent;
+  opacity: 10%;
+}
+
+.reset:active {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .visually-hidden {
@@ -1484,6 +1535,10 @@ html {
   border: none;
 }
 
+.date-form-field:disabled {
+  opacity: 30%;
+}
+
 .date-form-label-out {
   font-size: 20px;
   line-height: 24px;
@@ -1566,6 +1621,7 @@ html {
   height: 48px;
   display: flex;
   margin: 0;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -1573,6 +1629,10 @@ html {
   box-sizing: border-box;
   -webkit-appearance: textfield;
   appearance: textfield;
+}
+
+.visitors-number-field:disabled {
+  opacity: 30%;
 }
 
 .visitors-number-less {
@@ -1697,6 +1757,7 @@ html {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  border: none;
 }
 
 .find-form-search:hover,
@@ -1712,10 +1773,6 @@ html {
 
 .date-form-field:hover {
   background-color: #e6e6e6;
-}
-
-.button:disabled {
-  background: #e5e5e5;
 }
 
 img {
